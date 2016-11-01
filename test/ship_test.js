@@ -77,13 +77,13 @@ describe('fire', function() {
     };
   });
 
-  after(function() {
-    console.log('entire test suite completed');
-  });
+  // after(function() {
+  //   console.log('entire test suite completed');
+  // });
 
-  afterEach(function () {
-    console.log('one unit completed');
-  });
+  // afterEach(function () {
+  //   console.log('one unit completed');
+  // });
 
   it('should record damage on the given players ship at a given coordinate', function () {
     fire(player, [0, 0]);
